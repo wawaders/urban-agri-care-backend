@@ -1,260 +1,120 @@
 {
-  "Apple___Apple_scab": {
-    "crop": "Apple",
-    "disease": "Apple scab",
-    "description": "A fungal disease caused by Venturia inaequalis that produces olive-green to black velvety spots on leaves and scabby lesions on fruit.",
+  "Chilli___Anthracnose": {
+    "crop": "Chilli",
+    "disease": "Anthracnose",
+    "description": "A fungal disease caused by Colletotrichum species that produces sunken dark lesions on fruit, often with pink to orange spore masses, and dark spots on leaves and stems.",
     "quick_fixes": [
-      "Remove and dispose of heavily infected leaves and fallen leaf litter.",
-      "Prune overcrowded branches to improve airflow and leaf drying.",
-      "Apply a labelled scab fungicide according to the product schedule."
+      "Remove and destroy infected fruit, leaves and stems.",
+      "Avoid overhead irrigation and harvest fruit promptly once ripe.",
+      "Apply a labelled fungicide according to the product schedule."
     ],
     "prevention": [
-      "Plant scab-resistant apple varieties where available.",
-      "Rake up and destroy fallen leaves at the end of the season.",
-      "Avoid overhead irrigation that keeps foliage wet for long periods."
+      "Use certified disease-free seed and transplants.",
+      "Rotate away from chillies, peppers and tomatoes for at least two years.",
+      "Keep the canopy open and avoid working among wet plants."
     ]
   },
-  "Apple___Black_rot": {
-    "crop": "Apple",
-    "disease": "Black rot",
-    "description": "A fungal disease caused by Botryosphaeria obtusa that rots fruit and causes frogeye leaf spots and branch cankers.",
+  "Chilli___Damping_Off": {
+    "crop": "Chilli",
+    "disease": "Damping off",
+    "description": "A soil-borne disease caused by fungi such as Pythium and Rhizoctonia that rots seeds and collapses seedlings at the soil line.",
     "quick_fixes": [
-      "Remove mummified fruit from the tree and the ground.",
-      "Cut out cankered branches well below the visible damage.",
-      "Apply a labelled fungicide during the growing season."
+      "Remove and discard collapsed seedlings and the surrounding soil.",
+      "Improve drainage and reduce watering of the seed bed.",
+      "Apply a labelled damping-off fungicide if losses continue."
     ],
     "prevention": [
-      "Prune annually to keep the canopy open and dry.",
-      "Remove dead wood and fruit mummies before spring.",
-      "Keep trees vigorous with balanced fertiliser and adequate water."
+      "Use clean seed-raising mix and sterilised containers.",
+      "Sow thinly and keep the seed bed warm and well ventilated.",
+      "Avoid overwatering and overcrowding of seedlings."
     ]
   },
-  "Apple___Cedar_apple_rust": {
-    "crop": "Apple",
-    "disease": "Cedar apple rust",
-    "description": "A fungal disease caused by Gymnosporangium juniperi-virginianae that needs a juniper or cedar host to complete its life cycle.",
+  "Chilli___Leaf_Curl_Virus": {
+    "crop": "Chilli",
+    "disease": "Leaf curl virus",
+    "description": "A begomovirus spread by whiteflies that causes upward curling, puckering and yellowing of leaves and stunts plant growth. There is no cure.",
     "quick_fixes": [
-      "Remove nearby juniper and cedar hosts if practical.",
-      "Pick off galls and infected leaves where feasible.",
-      "Apply a labelled rust fungicide from bud break through early summer."
+      "Remove and destroy infected plants to reduce virus spread.",
+      "Control whiteflies with traps, soap sprays or approved products.",
+      "Do not save seed from affected plants."
     ],
     "prevention": [
-      "Choose rust-resistant apple cultivars.",
-      "Avoid planting apples close to junipers or cedars.",
-      "Monitor the alternate host for galls before spring rains."
+      "Use resistant chilli varieties where available.",
+      "Use yellow sticky traps and screen nursery or greenhouse openings.",
+      "Control weeds that can harbour whiteflies around the crop."
     ]
   },
-  "Apple___healthy": {
-    "crop": "Apple",
+  "Chilli___Leaf_Spot": {
+    "crop": "Chilli",
+    "disease": "Leaf spot",
+    "description": "A fungal disease caused by Cercospora species that produces circular brown spots with pale grey centres on chilli leaves and can cause premature leaf drop.",
+    "quick_fixes": [
+      "Remove and destroy heavily spotted leaves.",
+      "Improve airflow by spacing and pruning plants.",
+      "Apply a labelled fungicide if spots continue to spread."
+    ],
+    "prevention": [
+      "Rotate away from chillies and other solanaceous crops.",
+      "Water at the base and avoid overhead irrigation.",
+      "Remove crop debris at the end of the season."
+    ]
+  },
+  "Chilli___Veinal_Mottle_Virus": {
+    "crop": "Chilli",
+    "disease": "Veinal mottle virus",
+    "description": "A potyvirus spread by aphids that causes light and dark green mottling along the veins, leaf distortion and reduced fruit set. There is no cure.",
+    "quick_fixes": [
+      "Remove and destroy infected plants; do not compost them.",
+      "Control aphids with approved products and monitor new growth.",
+      "Disinfect tools and hands between plants."
+    ],
+    "prevention": [
+      "Use certified virus-free seed and resistant varieties where available.",
+      "Control weeds that can harbour aphids around the crop.",
+      "Inspect new growth regularly for mottling and aphid activity."
+    ]
+  },
+  "Chilli___Whitefly": {
+    "crop": "Chilli",
+    "disease": "Whitefly",
+    "description": "A sap-sucking insect that clusters on leaf undersides, causes yellowing and stunted growth, and produces honeydew that leads to sooty mould. It also spreads viruses.",
+    "quick_fixes": [
+      "Spray leaf undersides with insecticidal soap or a labelled product.",
+      "Remove heavily infested leaves and dispose of them.",
+      "Hang yellow sticky traps to monitor and reduce adult numbers."
+    ],
+    "prevention": [
+      "Check leaf undersides regularly, especially in warm weather.",
+      "Encourage natural predators such as ladybirds and parasitic wasps.",
+      "Screen nursery and greenhouse openings to keep adults out."
+    ]
+  },
+  "Chilli___Yellowish": {
+    "crop": "Chilli",
+    "disease": "Yellowish leaves",
+    "description": "General yellowing (chlorosis) of chilli leaves, often caused by nutrient deficiency, water stress or an early virus infection rather than a single pathogen.",
+    "quick_fixes": [
+      "Check soil moisture and correct over- or under-watering.",
+      "Feed with a balanced fertiliser containing micronutrients.",
+      "Remove leaves that are severely yellowed and inspect for pests."
+    ],
+    "prevention": [
+      "Keep soil pH and fertility within the recommended range.",
+      "Water consistently and mulch to stabilise soil moisture.",
+      "Monitor new growth for yellowing that spreads to the whole plant."
+    ]
+  },
+  "Chilli___healthy": {
+    "crop": "Chilli",
     "disease": "Healthy",
     "description": "The leaf shows no visible symptoms of disease or pest damage.",
     "quick_fixes": [
       "Continue the current watering and feeding programme.",
-      "Keep the area around the tree free of fallen debris."
+      "Check the undersides of leaves for early pest activity."
     ],
     "prevention": [
-      "Inspect leaves and fruit regularly for early symptoms.",
-      "Prune annually to maintain airflow through the canopy."
-    ]
-  },
-  "Blueberry___healthy": {
-    "crop": "Blueberry",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue watering deeply and consistently.",
-      "Top up mulch around the base of the plant."
-    ],
-    "prevention": [
-      "Keep soil pH in the acidic range of about 4.5 to 5.5.",
-      "Prune out old canes to encourage new growth and airflow."
-    ]
-  },
-  "Cherry_(including_sour)___Powdery_mildew": {
-    "crop": "Cherry",
-    "disease": "Powdery mildew",
-    "description": "A fungal disease that coats young leaves and shoots with a white powdery growth and can distort new growth.",
-    "quick_fixes": [
-      "Remove and dispose of distorted or heavily coated shoots.",
-      "Thin the canopy to increase airflow and sunlight penetration.",
-      "Apply a labelled sulphur or powdery mildew fungicide."
-    ],
-    "prevention": [
-      "Avoid excess nitrogen that produces soft, susceptible growth.",
-      "Water at the base rather than over the foliage.",
-      "Monitor new growth during warm, humid weather."
-    ]
-  },
-  "Cherry_(including_sour)___healthy": {
-    "crop": "Cherry",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue the current watering and feeding programme.",
-      "Clear fallen leaves and fruit from around the tree."
-    ],
-    "prevention": [
-      "Prune in dry weather to limit infection of pruning wounds.",
-      "Inspect leaves regularly during humid periods."
-    ]
-  },
-  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
-    "crop": "Corn (maize)",
-    "disease": "Cercospora leaf spot (gray leaf spot)",
-    "description": "A fungal disease caused by Cercospora species that produces long rectangular grey to tan lesions running between leaf veins.",
-    "quick_fixes": [
-      "Apply a labelled fungicide if lesions are spreading before tasselling.",
-      "Remove or incorporate heavily infected crop residue after harvest.",
-      "Maintain balanced nitrogen to reduce plant stress."
-    ],
-    "prevention": [
-      "Rotate away from corn for at least one season.",
-      "Plant hybrids with gray leaf spot resistance.",
-      "Bury crop residue to reduce the fungal inoculum."
-    ]
-  },
-  "Corn_(maize)___Common_rust_": {
-    "crop": "Corn (maize)",
-    "disease": "Common rust",
-    "description": "A fungal disease caused by Puccinia sorghi that produces small reddish-brown powdery pustules on both leaf surfaces.",
-    "quick_fixes": [
-      "Apply a labelled fungicide if pustules appear early and spread quickly.",
-      "Keep the crop well watered to reduce stress.",
-      "Record affected areas for next season's rotation plan."
-    ],
-    "prevention": [
-      "Plant rust-resistant corn hybrids.",
-      "Avoid very late planting that exposes young plants to high rust pressure.",
-      "Rotate crops and manage volunteer corn plants."
-    ]
-  },
-  "Corn_(maize)___Northern_Leaf_Blight": {
-    "crop": "Corn (maize)",
-    "disease": "Northern leaf blight",
-    "description": "A fungal disease caused by Exserohilum turcicum that produces long cigar-shaped grey-green to tan lesions on the leaves.",
-    "quick_fixes": [
-      "Apply a labelled fungicide when lesions reach the upper leaves.",
-      "Remove or incorporate infected residue after harvest.",
-      "Avoid overhead irrigation late in the day."
-    ],
-    "prevention": [
-      "Plant hybrids with Northern leaf blight resistance.",
-      "Rotate to a non-host crop for at least one season.",
-      "Manage crop residue to reduce overwintering inoculum."
-    ]
-  },
-  "Corn_(maize)___healthy": {
-    "crop": "Corn (maize)",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue the current irrigation and fertiliser programme.",
-      "Scout neighbouring rows for early disease symptoms."
-    ],
-    "prevention": [
-      "Rotate crops and manage residue each season.",
-      "Keep nitrogen and water balanced to avoid plant stress."
-    ]
-  },
-  "Grape___Black_rot": {
-    "crop": "Grape",
-    "disease": "Black rot",
-    "description": "A fungal disease caused by Guignardia bidwellii that produces brown leaf spots and shrivels berries into hard black mummies.",
-    "quick_fixes": [
-      "Remove mummified berries from vines and the ground.",
-      "Open up the canopy to improve airflow and drying.",
-      "Apply a labelled fungicide starting at bloom."
-    ],
-    "prevention": [
-      "Prune and train vines to keep foliage off the ground.",
-      "Remove all fruit mummies during dormant pruning.",
-      "Avoid overhead irrigation during the growing season."
-    ]
-  },
-  "Grape___Esca_(Black_Measles)": {
-    "crop": "Grape",
-    "disease": "Esca (black measles)",
-    "description": "A complex wood disease of mature vines that causes tiger-stripe leaf symptoms, and eventually dead arms and black spotting on berries.",
-    "quick_fixes": [
-      "Remove severely affected arms or vines with clean cuts.",
-      "Disinfect pruning tools between vines.",
-      "Apply a pruning wound protectant immediately after cutting."
-    ],
-    "prevention": [
-      "Avoid large pruning wounds and prune in dry weather.",
-      "Remove and destroy dead wood from the vineyard.",
-      "Keep vines well balanced and avoid severe water stress."
-    ]
-  },
-  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
-    "crop": "Grape",
-    "disease": "Leaf blight (Isariopsis leaf spot)",
-    "description": "A fungal disease that produces brown angular spots on grape leaves and can cause premature leaf drop in humid conditions.",
-    "quick_fixes": [
-      "Remove and dispose of infected leaves.",
-      "Improve canopy airflow through shoot thinning.",
-      "Apply a labelled fungicide if symptoms are spreading."
-    ],
-    "prevention": [
-      "Keep the vineyard floor clear of fallen leaves.",
-      "Avoid overhead irrigation and prolonged leaf wetness.",
-      "Monitor the canopy during warm, humid weather."
-    ]
-  },
-  "Grape___healthy": {
-    "crop": "Grape",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue the current irrigation and canopy management.",
-      "Clear fallen leaves from around the vines."
-    ],
-    "prevention": [
-      "Maintain an open canopy and good airflow.",
-      "Inspect leaves and fruit regularly through the season."
-    ]
-  },
-  "Orange___Haunglongbing_(Citrus_greening)": {
-    "crop": "Orange",
-    "disease": "Huanglongbing (citrus greening)",
-    "description": "A bacterial disease spread by the Asian citrus psyllid that causes blotchy mottled leaves, lopsided bitter fruit and gradual tree decline. There is no cure.",
-    "quick_fixes": [
-      "Remove and destroy severely infected trees to limit spread.",
-      "Apply a labelled psyllid control programme in the grove.",
-      "Report suspected cases to the local plant health authority."
-    ],
-    "prevention": [
-      "Plant only certified disease-free nursery stock.",
-      "Control Asian citrus psyllids with monitoring and approved treatments.",
-      "Inspect new growth regularly for mottling and psyllid activity."
-    ]
-  },
-  "Peach___Bacterial_spot": {
-    "crop": "Peach",
-    "disease": "Bacterial spot",
-    "description": "A bacterial disease caused by Xanthomonas arboricola pv. pruni that causes small dark angular leaf spots, shot-holes and fruit blemishes.",
-    "quick_fixes": [
-      "Remove heavily infected shoots during dry weather.",
-      "Avoid overhead irrigation and working among wet trees.",
-      "Apply a labelled copper spray within the permitted schedule."
-    ],
-    "prevention": [
-      "Choose peach cultivars with bacterial spot resistance.",
-      "Keep trees vigorous but avoid excessive nitrogen.",
-      "Prune for airflow and dispose of infected prunings."
-    ]
-  },
-  "Peach___healthy": {
-    "crop": "Peach",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue the current watering and feeding programme.",
-      "Remove fallen leaves and fruit from around the tree."
-    ],
-    "prevention": [
-      "Prune annually to maintain airflow through the canopy.",
-      "Inspect leaves for early spots after wet weather."
+      "Water at the base to keep foliage dry.",
+      "Rotate beds each season and mulch to reduce splash."
     ]
   },
   "Pepper,_bell___Bacterial_spot": {
@@ -328,73 +188,92 @@
       "Water at the base and avoid evening irrigation."
     ]
   },
-  "Raspberry___healthy": {
-    "crop": "Raspberry",
+  "Rice___Bacterial_Leaf_Blight": {
+    "crop": "Rice",
+    "disease": "Bacterial leaf blight",
+    "description": "A bacterial disease caused by Xanthomonas oryzae pv. oryzae that produces water-soaked streaks turning yellow to white, and can cause wilting of young plants.",
+    "quick_fixes": [
+      "Drain the field and avoid further overhead irrigation where possible.",
+      "Remove and destroy severely infected plants.",
+      "Apply a labelled bactericide only where permitted and recommended."
+    ],
+    "prevention": [
+      "Plant resistant rice varieties where available.",
+      "Use certified disease-free seed and avoid excessive nitrogen.",
+      "Rotate crops and manage straw residue between seasons."
+    ]
+  },
+  "Rice___Brown_Spot": {
+    "crop": "Rice",
+    "disease": "Brown spot",
+    "description": "A fungal disease caused by Bipolaris oryzae that produces oval brown spots with grey centres on leaves, and can also discolour grain.",
+    "quick_fixes": [
+      "Apply a labelled fungicide if spots are spreading on young plants.",
+      "Remove or incorporate infected crop residue after harvest.",
+      "Maintain balanced nutrition to reduce plant stress."
+    ],
+    "prevention": [
+      "Use certified disease-free seed treated against seed-borne fungi.",
+      "Rotate away from rice for at least one season.",
+      "Keep nitrogen and water balanced to avoid plant stress."
+    ]
+  },
+  "Rice___Leaf_Blast": {
+    "crop": "Rice",
+    "disease": "Leaf blast",
+    "description": "A fungal disease caused by Magnaporthe oryzae that produces diamond or spindle-shaped lesions with grey centres and brown margins on leaves.",
+    "quick_fixes": [
+      "Apply a labelled blast fungicide when lesions first appear.",
+      "Avoid excessive nitrogen that produces soft, susceptible growth.",
+      "Remove or incorporate infected residue after harvest."
+    ],
+    "prevention": [
+      "Plant blast-resistant rice varieties where available.",
+      "Rotate crops and manage straw residue between seasons.",
+      "Keep the field evenly watered and avoid prolonged leaf wetness."
+    ]
+  },
+  "Rice___Leaf_scald": {
+    "crop": "Rice",
+    "disease": "Leaf scald",
+    "description": "A fungal disease caused by Microdochium oryzae that produces zonate brown lesions starting at the leaf tip and spreading down the leaf.",
+    "quick_fixes": [
+      "Remove and destroy severely affected leaves where practical.",
+      "Apply a labelled fungicide if symptoms are spreading.",
+      "Reduce plant stress by keeping water and nutrition balanced."
+    ],
+    "prevention": [
+      "Use certified disease-free seed and resistant varieties where available.",
+      "Avoid excessive nitrogen and overcrowded planting.",
+      "Remove crop residue and rotate away from rice between seasons."
+    ]
+  },
+  "Rice___Sheath_Blight": {
+    "crop": "Rice",
+    "disease": "Sheath blight",
+    "description": "A fungal disease caused by Rhizoctonia solani that produces oval greenish-grey lesions on the leaf sheath, which can spread to the leaves and cause lodging.",
+    "quick_fixes": [
+      "Apply a labelled fungicide when lesions appear on the upper sheaths.",
+      "Drain the field briefly to reduce humidity around the base of the plants.",
+      "Remove or incorporate infected residue after harvest."
+    ],
+    "prevention": [
+      "Avoid dense planting and excessive nitrogen.",
+      "Rotate away from rice and manage straw residue between seasons.",
+      "Use resistant varieties where available and keep the field evenly watered."
+    ]
+  },
+  "Rice___healthy": {
+    "crop": "Rice",
     "disease": "Healthy",
     "description": "The leaf shows no visible symptoms of disease or pest damage.",
     "quick_fixes": [
-      "Continue the current watering and feeding programme.",
-      "Tie canes to the trellis to keep them off the ground."
+      "Continue the current irrigation and fertiliser programme.",
+      "Scout neighbouring areas for early disease symptoms."
     ],
     "prevention": [
-      "Prune out spent floricanes after harvest.",
-      "Keep the row narrow and well ventilated."
-    ]
-  },
-  "Soybean___healthy": {
-    "crop": "Soybean",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue the current crop management programme.",
-      "Scout fields weekly for early disease or pest symptoms."
-    ],
-    "prevention": [
-      "Rotate with a non-legume crop each season.",
-      "Keep fields weed-free to reduce alternative hosts."
-    ]
-  },
-  "Squash___Powdery_mildew": {
-    "crop": "Squash",
-    "disease": "Powdery mildew",
-    "description": "A fungal disease that covers leaves with white powdery patches and can reduce photosynthesis and fruit size.",
-    "quick_fixes": [
-      "Remove and dispose of heavily affected leaves.",
-      "Apply a labelled sulphur, potassium bicarbonate or fungicide product.",
-      "Increase spacing so foliage dries quickly."
-    ],
-    "prevention": [
-      "Choose powdery mildew resistant squash varieties.",
-      "Water at the base and avoid overhead irrigation.",
-      "Maintain good airflow around the plants."
-    ]
-  },
-  "Strawberry___Leaf_scorch": {
-    "crop": "Strawberry",
-    "disease": "Leaf scorch",
-    "description": "A fungal disease caused by Diplocarpon earlianum that produces small dark purple spots which merge and give leaves a scorched appearance.",
-    "quick_fixes": [
-      "Remove and destroy infected leaves.",
-      "Thin plants so air can move through the bed.",
-      "Apply a labelled fungicide if symptoms continue to spread."
-    ],
-    "prevention": [
-      "Renovate beds after harvest and remove old foliage.",
-      "Avoid overhead irrigation and keep foliage dry.",
-      "Use certified disease-free plants."
-    ]
-  },
-  "Strawberry___healthy": {
-    "crop": "Strawberry",
-    "disease": "Healthy",
-    "description": "The leaf shows no visible symptoms of disease or pest damage.",
-    "quick_fixes": [
-      "Continue the current watering and feeding programme.",
-      "Remove old and damaged leaves from the bed."
-    ],
-    "prevention": [
-      "Keep plants spaced for airflow and dry foliage.",
-      "Inspect new growth regularly for spots."
+      "Rotate crops and manage residue each season.",
+      "Keep nitrogen and water balanced to avoid plant stress."
     ]
   },
   "Tomato___Bacterial_spot": {

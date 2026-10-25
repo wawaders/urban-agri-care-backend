@@ -31,6 +31,12 @@ htmlcov/
 test_*.png
 checksum.txt
 
+# --- Agent instructions ---
+AGENTS.md
+
+# --- Datasets ---
+dataset/
+
 # --- Editors and OS files ---
 .vscode/
 .idea/
