@@ -2,6 +2,9 @@
 import io
 import json
 from pathlib import Path
+import os
+from openai import OpenAI
+from pydantic import BaseModel
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -159,4 +162,35 @@ async def diagnose_leaf(
             else "No treatment record is available for this label."
         )
     }
+    
+    # Sujay's Generative AI Integration
+client = OpenAI(
+    api_key=os.environ.get("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
+)
+
+class AIRequest(BaseModel):
+    disease_name: str
+
+@app.post("/ask-ai")
+async def get_advanced_ai_treatment(request: AIRequest):
+    try:
+        response = client.chat.completions.create(
+            model="openai/gpt-oss-20b",
+            messages=[
+                {"role": "system", "content": "You are an expert botanist and agricultural advisor. Provide highly detailed, structured recovery plans for plant diseases. Use short paragraphs and concise bullet points optimized for readability on a mobile phone screen. Do not use wide data tables."},
+                {"role": "user", "content": f"An urban farmer uploaded a plant diagnosed with {request.disease_name}. Provide a 3-step advanced organic treatment."}
+            ],
+            temperature=0.7,
+            max_tokens=2500
+        )
+        
+        return {
+            "success": True,
+            "disease_analyzed": request.disease_name,
+            "ai_solution": response.choices[0].message.content
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"AI API Error: {str(e)}")
 
