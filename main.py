@@ -5,6 +5,7 @@ from pathlib import Path
 import os
 from openai import OpenAI
 from pydantic import BaseModel
+from dotenv import load_dotenv
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,6 +18,7 @@ from services import (
     diagnose_image,
 )
 
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent
 TREATMENTS_FILE = BASE_DIR / "treatments.json"
